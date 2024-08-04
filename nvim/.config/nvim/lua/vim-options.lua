@@ -17,3 +17,4 @@ vim.keymap.set('n', '<leader>p', ':set paste<CR>')
 
 vim.api.nvim_set_option("clipboard","unnamed")
 
+vim.lsp.set_log_level("debug")
