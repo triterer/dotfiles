@@ -31,11 +31,11 @@ return {
       lspconfig.java_language_server.setup({
         capabilities = capabilities
       })
-      vim.keymap.set('n', '<leader>gd', vim.lsp.buf.definition, opts)
-      vim.keymap.set('n', 'K', vim.lsp.buf.hover, opts)
-      vim.keymap.set('n', '<leader>rn', vim.lsp.buf.rename, opts)
-      vim.keymap.set({ 'n', 'v' }, '<leader>ca', vim.lsp.buf.code_action, opts)
-      vim.keymap.set('n', '<leader>gr', vim.lsp.buf.references, opts)
+      vim.keymap.set('n', '<leader>ld', vim.lsp.buf.definition, opts)
+      vim.keymap.set('n', '<leader>lr', vim.lsp.buf.references, opts)
+      vim.keymap.set('n', '<leader>lr', vim.lsp.buf.rename, opts)
+      vim.keymap.set('n', '<leader>lh', vim.lsp.buf.hover, opts)
+      vim.keymap.set({ 'n', 'v' }, '<leader>lca', vim.lsp.buf.code_action, opts)
     end
   }
 }

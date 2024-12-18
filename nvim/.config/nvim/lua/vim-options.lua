@@ -15,6 +15,5 @@ vim.wo.number = true
 
 vim.keymap.set('n', '<leader>p', ':set paste<CR>')
 
-vim.api.nvim_set_option("clipboard","unnamed")
+vim.api.nvim_set_option("clipboard","priamary")
 
-vim.lsp.set_log_level("debug")
