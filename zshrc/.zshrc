@@ -14,6 +14,7 @@ setopt inc_append_history
 
 # append completions to fpath
 fpath=(${ASDF_DIR}/completions $fpath)
+#fpath=(~/.zsh/completion $fpath)
 # initialise completions with ZSH's compinit
 autoload -Uz compinit && compinit
 
