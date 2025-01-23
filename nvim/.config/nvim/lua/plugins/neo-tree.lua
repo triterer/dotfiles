@@ -11,7 +11,8 @@ return {
       filesystem = {
         filtered_items = {
           visible = true,
-          hide_dotfiles = false
+          hide_dotfiles = false,
+          close_if_last_window = true,
         }
       }
     }
